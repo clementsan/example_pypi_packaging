@@ -18,8 +18,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/clementsan/packaging_tutorial"
-Issues = "https://github.com/clementsan/packaging_tutorial/issues"
+Homepage = "https://github.com/clementsan/example_pypi_packaging"
+Issues = "https://github.com/clementsan/example_pypi_packaging/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
