@@ -2,6 +2,10 @@
 requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["example_package_clem"]
+
 [project]
 name = "example_package_clem"
 version = "0.0.1"
@@ -21,5 +25,3 @@ classifiers = [
 Homepage = "https://github.com/clementsan/example_pypi_packaging"
 Issues = "https://github.com/clementsan/example_pypi_packaging/issues"
 
-[tool.setuptools.packages.find]
-where = ["src"]
